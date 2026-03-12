@@ -1,0 +1,73 @@
+/* Login.module.css */
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: red !important; /* Temporary test */
+}
+
+.login-left {
+  flex: 1;
+  /* padding: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  z-index: 1;
+}
+
+.login-form-title {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 500;
+}
+
+.font-color {
+  color: #202224;
+}
+
+.login-right {
+  width: 50%;
+  height: 100%;
+  background-color: #f0f2f5;
+  overflow: hidden;
+  border: 5px solid blue !important; /* Temporary test */
+}
+
+.login-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.sponsors {
+  margin-top: 20px;
+  width: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form .ant-typography {
+  margin-bottom: 10px;
+}
+
+.login-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-options {
+  display: flex;
+  justify-content: flex-end;
+}

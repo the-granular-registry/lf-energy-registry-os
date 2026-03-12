@@ -9,3 +9,10 @@ build/
 .env
 .DS_Store
 .pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.env
