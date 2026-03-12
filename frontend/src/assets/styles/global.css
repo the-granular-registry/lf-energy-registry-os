@@ -1,0 +1,33 @@
+/* global.css */
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .ant-btn, .ant-input, .ant-select, .ant-typography {
+    font-family: 'Inter', sans-serif;
+  }
+
+/* Target Ant Design message content */
+.ant-message-notice-content {
+  font-size: 18px !important; /* Increase text size */
+  padding: 16px 24px !important; /* Add more padding */
+  border-radius: 8px !important; /* Optional: Rounded corners */
+}
+
+/* Optional: Success message background */
+.ant-message-success {
+  color: #08979c !important;
+}
+
+/* Optional: Error message background */
+.ant-message-error {
+  color: #cf1322 !important;
+}

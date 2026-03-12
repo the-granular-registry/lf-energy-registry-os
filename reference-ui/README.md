@@ -1,7 +1,5 @@
-# Reference UI (Placeholder)
+# Reference UI
 
-v0 intentionally ships **no front-end**.
+The full Registry UI codebase is included under `../frontend/`.
 
-Planned:
-- Minimal reference UI to upload a CSV and visualize SCR/SDR outputs.
-- Will target the Measurement Report API endpoints.
+This `reference-ui/` directory is kept only for backward compatibility with earlier scaffolding.
